@@ -5,7 +5,7 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', '< 0.3'
+gem 'mysql2', '~> 0.3'
 gem 'devise'
 gem 'devise-encryptable'
 
@@ -49,6 +49,7 @@ gem 'paper_trail'
 gem 'carrierwave'
 gem "rmagick"
 gem 'tinymce-rails'
+gem 'charlock_holmes', github: "tooky/charlock_holmes", branch: "bundle-icu"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
