@@ -107,8 +107,7 @@ GEM
     multi_json (1.5.0)
     mysql (2.9.0)
     mysql (2.9.0-x86-mingw32)
-    mysql2 (0.3.11)
-    mysql2 (0.3.11-x86-mingw32)
+    mysql2 (0.2.22)
     nested_form (0.3.1)
     nokogiri (1.5.8)
     nokogiri (1.5.8-x86-mingw32)
@@ -211,7 +210,7 @@ DEPENDENCIES
   gon
   jquery-rails
   kaminari
-  mysql2
+  mysql2 (< 0.3)
   nested_form
   paper_trail
   paypal-sdk-rest
