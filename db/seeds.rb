@@ -194,4 +194,6 @@ templates.each do |template|
   )
 end
 
+puts "Seeding complete...."
+
 
